@@ -1,0 +1,2 @@
+ERROR - file not found
+INFO - Hello, world.

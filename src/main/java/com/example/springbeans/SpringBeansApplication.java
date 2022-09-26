@@ -36,5 +36,10 @@ public class SpringBeansApplication
         log.info("Hello, world.");
 
 //        FileLogger logger = new FileLogger("log.txt");
+
+        for (String beanName : context.getBeanDefinitionNames())
+        {
+            System.out.println(beanName);
+        }
     }
 }
